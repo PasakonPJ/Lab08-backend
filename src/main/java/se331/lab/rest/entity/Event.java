@@ -9,11 +9,9 @@ import javax.persistence.Id;
 
 @Data
 @Builder
-//3.2
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
-
 public class Event {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
