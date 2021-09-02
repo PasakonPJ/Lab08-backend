@@ -40,5 +40,14 @@ public class InitApp implements ApplicationListener<ApplicationReadyEvent> {
                 .time("10.00 - 6.00 pm.")
                 .petAllowed(true)
                 .organizer("Chiang Mai Municipality").build());
+        eventRepository.save(Event.builder()
+                .category("Cultural")
+                .title("Loy tood")
+                .description("Let's Play Water")
+                .location("Chiang Mai Moat")
+                .date("13th April")
+                .time("10.00 - 6.00 pm.")
+                .petAllowed(true)
+                .organizer("Chiang Mai Municipality").build());
     }
 }
